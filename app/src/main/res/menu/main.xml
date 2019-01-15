@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/settings_button"
+        android:title="@string/settings"
+        android:icon="@drawable/ic_settings_black"
+        app:showAsAction="withText|never" />
+
+    <item android:id="@+id/feedback_button"
+        android:title="@string/feedback"
+        android:icon="@drawable/ic_settings_black"
+        app:showAsAction="withText|never" />
+
+    <item android:id="@+id/vote_button"
+        android:title="@string/vote_for_features"
+        android:icon="@drawable/ic_thumbs_up_black"
+        app:showAsAction="withText|never" />
+
+</menu>

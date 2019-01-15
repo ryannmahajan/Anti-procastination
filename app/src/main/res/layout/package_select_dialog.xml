@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:weightSum="3"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/app_to_block_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:paddingRight="8dp"
+        android:paddingEnd="8dp"
+        android:text="@string/select_apps_to_block"
+        android:textColor="@android:color/white"
+        android:textSize="38sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/packages_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_weight="2.88"
+        android:layout_height="0dp"
+        android:layout_margin="8dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="0.12"
+        android:text="@string/we_ll_remember_your_choice_you_can_change_it_anytime_in_settings"
+        android:textColor="@android:color/white"
+        android:textSize="17.5sp" />
+
+</LinearLayout>

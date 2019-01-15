@@ -1,0 +1,33 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.LightEditText" parent="AppTheme" >
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="TextInputLayoutHintBigger" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="BlackSpinnerTextTheme" parent="AppTheme">
+        <item name="android:spinnerItemStyle">@style/BlackSpinnerItem</item>
+    </style>
+
+    <style name="BlackSpinnerItem" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textAppearance">@style/BlackTextAppearanceSpinnerItem</item>
+    </style>
+
+    <style name="BlackTextAppearanceSpinnerItem" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">#F000</item>
+    </style>
+
+</resources>
