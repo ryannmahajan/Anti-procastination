@@ -1,5 +1,5 @@
 # Sam
-Android App that uses punishments to help users avoid procrastination. 
+Android App that uses punishments to help users avoid procrastination. Click [here](https://play.google.com/store/apps/details?id=com.ryannm.android.sam) to check it out. 
 
 **Behind the scenes**
 
